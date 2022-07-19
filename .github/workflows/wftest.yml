@@ -25,4 +25,4 @@ jobs:
         pip install planemo
     - name: run planemo test
       run: |
-        planemo test --biocontainers bam-to-fastq-qc.ga
+        planemo test --biocontainers workflow.ga
